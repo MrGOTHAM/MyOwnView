@@ -21,7 +21,6 @@ class BtnView : View{
     private val mTextPaint: Paint by lazy { Paint() }
     private val mOkPaint: Paint by lazy { Paint() }
     private val mPath: Path by lazy { Path() }
-    private val mRect: Rect by lazy { Rect() }
     private val mRectF: RectF by lazy { RectF() }
     private val mTextRect: Rect by lazy { Rect() }
     private lateinit var mPathMeasure: PathMeasure
